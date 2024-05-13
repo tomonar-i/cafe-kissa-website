@@ -110,7 +110,9 @@ img {
 
 /* footerここまで */
 
+/* スマホ用レスポンシブレイアウト */
 @media (max-width: 800px) {
+  /* header */
   .site-menu ul {
     display: block;
     text-align: center;
@@ -170,5 +172,23 @@ img {
     border: none;
     /* border-radius: 0; */
     /* outline: none; */
+  }
+
+  /* main */
+  .main {
+    padding-top: 50px;
+  }
+
+  /* footer */
+  .footer-logo {
+    margin-top: 60px;
+  }
+
+  .footer-tel {
+    font-size: 20px;
+  }
+
+  .copyright {
+    margin-top: 50px;
   }
 }
