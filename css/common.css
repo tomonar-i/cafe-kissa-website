@@ -110,9 +110,9 @@ img {
 
 /* footerここまで */
 
-/* スマホ用レスポンシブレイアウト */
+/* モバイル用レスポンシブレイアウト */
 @media (max-width: 800px) {
-  /* header */
+  /* モバイル用header */
   .site-menu ul {
     display: block;
     text-align: center;
@@ -174,12 +174,12 @@ img {
     /* outline: none; */
   }
 
-  /* main */
+  /* モバイル用main */
   .main {
     padding-top: 50px;
   }
 
-  /* footer */
+  /* モバイル用footer */
   .footer-logo {
     margin-top: 60px;
   }
