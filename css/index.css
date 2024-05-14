@@ -117,6 +117,7 @@
   font-weight: bold;
   margin-top: 15px;
 }
+
 /* モバイル用レスポンシブレイアウト */
 @media (max-width: 800px) {
   .first-view {
@@ -146,5 +147,15 @@
   
   .lead p {
     text-align: left;
+  }
+
+  .item-list {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .item-list li {
+    width: 220px;
+    margin-left: 30px;
   }
 }
